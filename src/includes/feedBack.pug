@@ -1,0 +1,37 @@
+.feedBack
+  .feedBack--container 
+    
+    .feedBack--container__content
+      .feedBack--container__content--mainContent
+        .feedBack--container__content--mainContent__contentText
+          h2 Более 200 отзывов
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        .feedBack--container__content--mainContent__containerButton
+          include ./components/buttonSecondary
+          +buttonPrimary('Все отзывы')
+      .feedBack--container__content--cards 
+        .feedBack--container__content--cards__first
+          img(src="./images/feedBackFirst.svg", alt="feedBackFirst")
+          .feedBack--container__content--cards__first--text
+            h4 Заголовок отзыва
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip...
+            .feedBack--container__content--cards__first--text__buttonSecondary
+              include ./components/buttonSecondary
+              +buttonSecondary('Читать отзыв')
+        .feedBack--container__content--cards__second
+          img(src="./images/feedBackSecond.svg", alt="feedBackSecond")
+          .feedBack--container__content--cards__second--text
+            h4 Гриль домики
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip...
+            .feedBack--container__content--cards__second--text__buttonSecondary
+              include ./components/buttonSecondary
+              +buttonSecondary('Читать отзыв')
+        .feedBack--container__content--cards__third
+          img(src="./images/feedBackThird.svg", alt="feedBackThird")
+          .feedBack--container__content--cards__third--text
+            h4 Кемпинги
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip...
+            .feedBack--container__content--cards__third--text__buttonSecondary
+              include ./components/buttonSecondary
+              +buttonSecondary('Читать отзыв')
+  

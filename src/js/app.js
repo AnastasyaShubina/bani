@@ -1,6 +1,8 @@
 import 'normalize.css/normalize.css'
 import '../sass/style.sass'
+import { accordion } from './accordion'
 import { onDocumentReady, importAll } from './functions.js'
+import { swiperSlider } from './slider'
 
 importAll(
   require.context(
@@ -13,3 +15,6 @@ importAll(
 onDocumentReady(function () {
   console.log('hello.')
 })
+
+swiperSlider()
+accordion()
