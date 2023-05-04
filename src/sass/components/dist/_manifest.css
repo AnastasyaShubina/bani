@@ -1,7 +1,14 @@
 .manifest {
   background-color: #F7FAFC;
 }
-.manifest .manifest--container h3.main {
+.manifest .manifest--container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.manifest .manifest--container .manifest--container__content {
+  padding: 100px 0px;
+}
+.manifest .manifest--container .manifest--container__content h3.main {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -11,8 +18,15 @@
   align-items: center;
   text-align: center;
   color: #1C1C1C;
+  max-width: 1176px;
+  margin: 0 auto;
 }
-.manifest .manifest--container .manifest--container__content--numbers li h3 {
+.manifest .manifest--container .manifest--container__content--numbers ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.manifest .manifest--container .manifest--container__content--numbers ul li h3.counter {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
@@ -22,8 +36,9 @@
   align-items: center;
   text-align: center;
   color: #F03F29;
+  justify-content: center;
 }
-.manifest .manifest--container .manifest--container__content--numbers li h6 {
+.manifest .manifest--container .manifest--container__content--numbers ul li h6 {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
@@ -32,8 +47,9 @@
   text-align: center;
   color: #1C1C1C;
   max-width: 306px;
+  margin: 0px 0 30px 7px;
 }
-.manifest .manifest--container .manifest--container__content--numbers li p {
+.manifest .manifest--container .manifest--container__content--numbers ul li p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;

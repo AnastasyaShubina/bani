@@ -3,6 +3,7 @@ import '../sass/style.sass'
 import { accordion } from './accordion'
 import { onDocumentReady, importAll } from './functions.js'
 import { swiperSlider } from './slider'
+import { counters } from './counter'
 
 importAll(
   require.context(
@@ -18,3 +19,4 @@ onDocumentReady(function () {
 
 swiperSlider()
 accordion()
+counters()
