@@ -1,64 +1,69 @@
 .questions
   background-color: #fff
-  &--container 
+  &--container
     max-width: 1440px
     margin: 0 auto
     &__content
       margin: 30px 33px
-      h2 
+      h2
         color: #000
         font-size: 50px
         font-family: Gilroy
         font-weight: 500
         margin-bottom: 28px
-      p 
+      p
         color: #000
         font-size: 16px
         font-family: Gilroy
-        font-weight: 400 
+        font-weight: 400
     &__accordion
-        display: flex
-        flex-direction: column
+      display: flex
+      flex-direction: column
+      max-width: 1373px
+      gap: 30px
+      margin: 0 30px
+      &--main
+        border: 1px solid #ccc
         max-width: 1373px
-        gap: 30px
-        margin: 0 30px
-        &--main
-          border: 1px solid #ccc
-          max-width: 1373px
+        border: 1px solid #EDF0F7
+        border-radius: 10px
+        &__item
+          padding: 20px
           border: 1px solid #EDF0F7
           border-radius: 10px
-          &__item
-            padding: 20px
-            border: 1px solid #EDF0F7
-            border-radius: 10px
-            margin: -1px
-            display: flex
-            justify-content: space-between
-            cursor: pointer
-            h2.accordion-header 
-              margin: 0
-              font-family: 'Gilroy'
-              font-style: normal
-              font-weight: 400
-              font-size: 18px
-              line-height: 21px
-              display: flex
-              align-items: center
-              color: #000000
-            h2.accordion-header.active
-              font-weight: 600
-              color: #F03F29
-            img.accordion-icon
-              transition: transform 0.3s ease
-          p.accordion-content 
-            display: none
-            padding: 10px
+          margin: -1px
+          display: flex
+          justify-content: space-between
+          cursor: pointer
+          h2
+            margin: 0
             font-family: 'Gilroy'
             font-style: normal
             font-weight: 400
-            font-size: 14px
-            line-height: 150%
+            font-size: 18px
+            line-height: 21px
+            display: flex
+            align-items: center
             color: #000000
-            padding: 17px 20px
-          p.accordion-content.active 
-            display: block
+          img.accordion-icon
+            transition: transform 0.3s ease
+            height: 100%
+            margin: auto 0
+        p
+          display: none
+          padding: 10px
+          font-family: 'Gilroy'
+          font-style: normal
+          font-weight: 400
+          font-size: 14px
+          line-height: 150%
+          color: #000000
+          padding: 17px 20px
+.active
+  h2
+    font-weight: 600
+    color: #F03F29
+  p
+    display: block
+  .accordion-icon
+    transform: rotate(180deg)
