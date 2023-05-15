@@ -1,0 +1,26 @@
+.breadCrumbs {
+  margin: 50px 0px 30px 0;
+}
+.breadCrumbs--text {
+  display: flex;
+  margin: 50px auto 30px auto;
+  gap: 5px;
+  max-width: 1440px;
+}
+.breadCrumbs--text p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.breadCrumbs--text .active {
+  color: #F03F29;
+  cursor: pointer;
+}
+.breadCrumbs--text .symbol {
+  color: #000;
+}
+.breadCrumbs--text .passive {
+  color: #000;
+}

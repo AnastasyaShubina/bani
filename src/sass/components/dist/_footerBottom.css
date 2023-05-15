@@ -133,6 +133,7 @@
   max-height: 40px;
   z-index: 0;
   position: relative;
+  margin-top: 35px;
 }
 .footerBottom--container__first--listContainer__contacts--backgroundLanguages img.backgroundLanguagesImg {
   z-index: 0;
