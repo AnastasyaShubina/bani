@@ -10,6 +10,6 @@ accordionHeaders.forEach(header => {
             // header.style.fontWeight = accordionContent.classList.contains('active') ? '600' : '400';
             // header.style.color = accordionContent.classList.contains('active') ? '#F03F29' : 'black';
         });
-    });
+    }); 
     
 
