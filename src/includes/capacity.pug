@@ -1,25 +1,26 @@
-.products
-  .products--container 
-    .products--container__content
-      h2 Продукция компании Bochky
-      p В нашем каталоге вы можете выбрать и купить готовые бани, домики, купели, кемпинги и аксессуары торговой марки Bochky®! Мы доставляем нашу продукцию манипулятором в готовом виде. Это — комфорт с доставкой на дом, наслаждение, доступное каждому.
-      .products--container__content--cards 
-        .products--container__content--cards__bathhouseBarrel
-          img(src="./images/bathhouseBarrel.png", alt="bathhouseBarrel")
-          .products--container__content--cards__bathhouseBarrel--text
-            h4 Бани бочки
-            p Баня бочка от Bochky® — это продукт для тех, кто хочет получить полноценную баню за короткие сроки.
-            h5 От 107 990 ₽
-        .products--container__content--cards__grillHouse
-          img(src="./images/grillHouse.png", alt="grillHouse")
-          .products--container__content--cards__grillHouse--text
-            h4 Гриль домики
-            p Отличное решение для загородного участка. В них есть всё необходимое и сразу готовы к использованию.
-            h5 От 483 990 ₽
-        .products--container__content--cards__kempings
-          img(src="./images/kempings.png", alt="kempings")
-          .products--container__content--cards__kempings--text
-            h4 Кемпинги
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-            h5 От 800 990 ₽
-        
+.capacity
+  .capacity--container 
+    .capacity--container__content
+      .capacity--container__content--main
+        .capacity--container__content--main__text
+          h2 Выберите вместимость бани бочки
+          p В нашем каталоге представлены бани бочки различной вместимости, от 1-2 человек, если вы берете баню бочку для себя, и до 10 человек, когда вы хотите париться в большой компании.
+        .capacity--container__content--main__containerButton
+          include ./components/buttonSecondary
+          +buttonSecondary('Перейти в каталог')
+      .capacity--container__content--cards 
+        .capacity--container__content--cards__bathhouseBarrel
+          img(src="./images/bathhouseBarrel.png" alt="bathhouseBarrel")
+          .capacity--container__content--cards__bathhouseBarrel--text
+            h4 Для себя
+            img(src="./images/forSelf.svg" alt="")
+        .capacity--container__content--cards__grillHouse
+          img(src="./images/forFamilyImg.png" alt="grillHouse")
+          .capacity--container__content--cards__grillHouse--text
+            h4 Для семьи
+            img(src="./images/forFamily.svg" alt="")
+        .capacity--container__content--cards__kempings
+          img(src="./images/forCompanyImg.png" alt="kempings")
+          .capacity--container__content--cards__kempings--text
+            h4 Для компании
+            img(src="./images/forCompany.svg" alt="")

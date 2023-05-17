@@ -10,8 +10,6 @@
             padding: 50px 0
             &--info
                 max-width: 310px
-                
-                img
                 h4 
                     font-family: 'Gilroy'
                     font-style: normal
@@ -92,30 +90,63 @@
                                 
                 &__contacts
                     max-width: 287px
-                    h4 
-                        font-family: 'Gilroy'
-                        font-style: normal
-                        font-weight: 600
-                        font-size: 20px
-                        line-height: 24px
-                        color: #FFFFFF
-                        margin-bottom: 26px
-                    ul 
-                        list-style-type: disc
-                        margin-left: 12px
-                        li
-                            color: #DA4127
-                            font-size: 14.5px
-                            //margin-bottom: 0.8em
-                            a
+                    &--text
+                        h4 
+                            font-family: 'Gilroy'
+                            font-style: normal
+                            font-weight: 600
+                            font-size: 20px
+                            line-height: 24px
+                            color: #FFFFFF
+                            margin-bottom: 26px
+                        ul 
+                            list-style-type: disc
+                            margin-left: 12px
+                            li
+                                color: #DA4127
+                                font-size: 14.5px
+                                //margin-bottom: 0.8em
+                                a
+                                    font-family: 'Gilroy'
+                                    font-style: normal
+                                    font-weight: 300
+                                    font-size: 18px
+                                    line-height: 190%
+                                    letter-spacing: -0.015em
+                                    color: #FFFFFF
+                    &--backgroundLanguages
+                        max-width: 198px
+                        max-height: 40px
+                        z-index: 0
+                        position: relative
+                        margin-top: 35px
+                        // background-repeat: no-repeat
+                        // background-size: cover
+                        // background-position: center
+                        // margin: 0px 10px
+                        img.backgroundLanguagesImg
+                            z-index: 0
+                            position: relative
+                        &__content
+                            display: flex
+                            //gap: 10px
+                            padding: 10px 15px
+                            justify-content: space-between
+                            margin-top: -48px
+                            gap: 10px
+                            z-index: 99
+                            position: absolute
+                            p.language 
                                 font-family: 'Gilroy'
                                 font-style: normal
-                                font-weight: 300
-                                font-size: 18px
-                                line-height: 190%
-                                letter-spacing: -0.015em
+                                font-weight: 400
+                                font-size: 16px
+                                line-height: 170%
                                 color: #FFFFFF
-                            
+                            img.lang
+                                cursor: pointer
+                            img.lang
+                                cursor: pointer
         &__second  
             border-top: 1px solid rgba(255, 255, 255, 0.3)
             

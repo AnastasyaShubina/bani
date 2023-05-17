@@ -1,20 +1,28 @@
-.products
+.capacity
   background-color: #fff
+  margin-bottom: 100px
   &--container 
     max-width: 1440px
     margin: 0 auto
     &__content
-      h2 
-        color: #000
-        font-size: 50px
-        font-family: Gilroy
-        font-weight: 500
-        margin-bottom: 28px
-      p 
-        color: #000
-        font-size: 16px
-        font-family: Gilroy
-        font-weight: 400
+      &--main
+        display: flex
+        justify-content: space-between
+        &__text
+          max-width: 978px
+          h2 
+            color: #000
+            font-size: 50px
+            font-family: Gilroy
+            font-weight: 500
+            margin-bottom: 28px
+          p 
+            color: #000
+            font-size: 16px
+            font-family: Gilroy
+            font-weight: 400
+        &__containerButton
+          margin-top: 9px
       &--cards 
         grid-template-columns: 1fr 1fr 1fr
         display: grid
@@ -31,26 +39,18 @@
             max-width: 416px
             margin: 20px
             display: flex
-            flex-direction: column
-            gap: 10px
-
+            flex-direction: row
+            justify-content: space-between
             h4 
-              color: #000
-              font-family: Gilroy
+              font-family: 'Gilroy'
+              font-style: normal
               font-weight: 600
+              font-size: 30px
+              line-height: 130%
+              color: #000000
+            img
+              max-width: 79px
               
-            p 
-              color: #000
-              font-size: 15px
-              font-family: Gilroy
-              font-weight: 400
-              
-            h5 
-              color: #F03F29
-              font-family: Gilroy
-              font-weight: 600
-              font-size: 20px
-              margin: 0
         &__grillHouse
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -62,26 +62,15 @@
             max-width: 416px
             margin: 20px
             display: flex
-            flex-direction: column
-            gap: 10px
-
+            flex-direction: row
+            justify-content: space-between
             h4 
               color: #000
               font-family: Gilroy
               font-weight: 600
+            img
+              max-width: 79px
               
-            p 
-              color: #000
-              font-size: 15px
-              font-family: Gilroy
-              font-weight: 400
-              
-            h5 
-              color: #F03F29
-              font-family: Gilroy
-              font-weight: 600
-              font-size: 20px
-              margin: 0
         &__kempings
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -93,24 +82,12 @@
             max-width: 416px
             margin: 20px
             display: flex
-            flex-direction: column
-            gap: 10px
-
+            flex-direction: row
+            justify-content: space-between
             h4 
               color: #000
               font-family: Gilroy
               font-weight: 600
-              
-            p 
-              color: #000
-              font-size: 15px
-              font-family: Gilroy
-              font-weight: 400
-              
-            h5 
-              color: #F03F29
-              font-family: Gilroy
-              font-weight: 600
-              font-size: 20px
-              margin: 0
+            img
+              max-width: 79px
         
