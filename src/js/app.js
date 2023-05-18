@@ -4,7 +4,6 @@ import { accordion, accordionHeaders } from './accordion'
 import { onDocumentReady, importAll } from './functions.js'
 import { swiperSlider } from './slider'
 import { counters } from './counter'
-import { accordionIcons } from './accordionIcon'
 import { sliderGood } from './sliderGood'
 
 importAll(
@@ -23,5 +22,4 @@ swiperSlider()
 //accordion()
 counters()
 accordionHeaders()
-accordionIcons()
 sliderGood()

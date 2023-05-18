@@ -1,0 +1,34 @@
+.calculation 
+  .calculation--container
+      h2 Рассчитайте индивидуальную комплектацию
+      p.text Вы можете сделать точный расчет стоимости бани и сделать заказ самостоятельно. Нажмите на каждый пункт для выбора опций.
+      p.option 1. Выберите условия поставки
+      .calculation--container__cards 
+        .calculation--container__cards--card
+          img(src="./images/forFamilyImg.png" alt="bathhouseBarrel").mainImg
+          .calculation--container__cards--card__text
+            h4 В готовом виде
+            img(src="/images/iconQuest.svg", alt="Тултип", title="Описание термина").questionIcon
+          .calculation--container__cards--card__text--startPrice
+              h3.startPriceStyle 0 ₽
+        .calculation--container__cards--card
+          img(src="./images/forFamilyImg.png" alt="bathhouseBarrel").mainImg
+          .calculation--container__cards--card__text
+            h4 Сборка на участке
+            img(src="/images/iconQuest.svg", alt="Тултип", title="Описание термина").questionIcon
+          .calculation--container__cards--card__text--startPrice
+              h3.startPriceStyle + 15 000 ₽
+        .calculation--container__cards--card
+          img(src="./images/forFamilyImg.png" alt="bathhouseBarrel").mainImg
+          .calculation--container__cards--card__text
+            h4 Сборка на участке
+            img(src="/images/iconQuest.svg", alt="Тултип", title="Описание термина").questionIcon
+          .calculation--container__cards--card__text--startPrice
+              h3.startPriceStyle + 15 000 ₽
+      .calculation--container__cards--totalPrice 
+        h3.totalPrice Стоимость выбранной конфигурации 133 990 ₽
+        .calculation--container__cards--totalPrice__buttons 
+            include ./components/buttonQuinary
+            +buttonQuinary('Назад')
+            include ./components/buttonQuinary
+            +buttonQuinary('Далее')

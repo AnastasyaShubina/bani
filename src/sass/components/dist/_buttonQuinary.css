@@ -1,11 +1,12 @@
-.buttonQuaternary {
+.buttonQuinary {
   border-radius: 2rem;
   border: none;
-  padding: 10px 31px;
+  padding: 6px 31px;
   line-height: 20px;
-  background-color: #5F5F5F;
+  background-color: #F7FAFC;
   font-size: 14px;
   font-family: Gilroy;
   font-weight: 400;
-  color: #fff;
+  color: #000;
+  border: 1px solid #F03F29;
 }
