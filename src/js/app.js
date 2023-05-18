@@ -5,6 +5,7 @@ import { onDocumentReady, importAll } from './functions.js'
 import { swiperSlider } from './slider'
 import { counters } from './counter'
 import { accordionIcons } from './accordionIcon'
+import { sliderGood } from './sliderGood'
 
 importAll(
   require.context(
@@ -23,3 +24,4 @@ swiperSlider()
 counters()
 accordionHeaders()
 accordionIcons()
+sliderGood()

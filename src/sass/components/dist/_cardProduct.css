@@ -1,0 +1,72 @@
+.cardProduct {
+  margin: 50px 30px 30px 30px;
+}
+.cardProduct--mainDescription {
+  max-width: 1272px;
+  margin: 50px 0 30px 44px;
+}
+.cardProduct--mainDescription__container {
+  display: flex;
+  gap: 50px;
+}
+.cardProduct--mainDescription__container--images img {
+  height: 410px;
+  width: 475px;
+}
+.cardProduct--mainDescription__container--text h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #1C1C1C;
+}
+.cardProduct--mainDescription__container--text p.mainDescription {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1C1C1C;
+  padding: 30px 0;
+  max-width: 600px;
+}
+.cardProduct--mainDescription__container--text h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1C1C1C;
+}
+.cardProduct--mainDescription__container--text__buttons {
+  display: flex;
+  gap: 10px;
+  padding: 14px 0;
+}
+.cardProduct--mainDescription__container--text p.bold {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1C1C1C;
+}
+.cardProduct--mainDescription__container--text__priceContainer {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+  padding-top: 30px;
+}
+.cardProduct--mainDescription__container--text__priceContainer h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #1C1C1C;
+}

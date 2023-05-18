@@ -1,0 +1,44 @@
+.cardProduct 
+  .cardProduct--mainDescription
+   .cardProduct--mainDescription__container 
+    .cardProduct--mainDescription__container--images 
+        img(src="./images/kempings.png", alt="")
+        //- .swiperGood2(style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff")
+        //-   div.swiper-wrapper
+        //-     div.swiper-slide
+        //-       img(src="https://swiperjs.com/demos/images/nature-1.jpg")
+        //-     div.swiper-slide
+        //-       img(src="https://swiperjs.com/demos/images/nature-2.jpg")
+        //-     div.swiper-slide
+        //-       img(src="https://swiperjs.com/demos/images/nature-3.jpg")
+            
+        //- .swiperGood
+        //-   div.swiper-wrapper
+        //-     div.swiper-slide
+        //-       img(src="https://swiperjs.com/demos/images/nature-1.jpg")
+        //-     div.swiper-slide
+        //-       img(src="https://swiperjs.com/demos/images/nature-2.jpg")
+        //-     div.swiper-slide
+        //-       img(src="https://swiperjs.com/demos/images/nature-3.jpg")
+        //-     div.swiper-slide
+    .cardProduct--mainDescription__container--text
+        h2 Баня-бочка «ДУО»
+        p.mainDescription Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+        h4 Выберите комплектацию:
+        .cardProduct--mainDescription__container--text__buttons 
+          include ./components/buttonQuaternary
+          +buttonQuaternary('Стандарт')
+          include ./components/buttonTertiary
+          +buttonTertiary('Эко')
+          include ./components/buttonTertiary
+          +buttonTertiary('Индивидуальная')
+        p.bold Изготавливается из ели или кедра 42х92 мм, имеет стандартную комплектацию.
+        .cardProduct--mainDescription__container--text__priceContainer 
+          h3 133 990 ₽
+          .cardProduct--mainDescription__container--text__priceContainer--buttonContainer
+            include ./components/buttonSecondary
+            +buttonSecondary('Заказать')
+
+
+
+  
