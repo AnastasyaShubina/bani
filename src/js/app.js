@@ -6,6 +6,7 @@ import { swiperSlider } from './slider'
 import { counters } from './counter'
 import { accordionIcons } from './accordionIcon'
 import { carusel } from './carusel'
+import { sliderGood } from './sliderGood'
 
 importAll(
   require.context(
@@ -26,3 +27,4 @@ carusel()
 counters()
 accordionHeaders()
 accordionIcons()
+sliderGood()

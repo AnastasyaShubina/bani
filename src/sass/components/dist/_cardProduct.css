@@ -1,0 +1,204 @@
+.cardProduct {
+  margin: 0 30px 100px;
+}
+.cardProduct--mainDescription {
+  max-width: 1440px;
+  margin: 0 30px;
+}
+.cardProduct--mainDescription__container {
+  display: flex;
+  gap: 50px;
+}
+.cardProduct--mainDescription__container--images img {
+  height: 410px;
+  width: 475px;
+}
+.cardProduct--mainDescription__container--text h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #1C1C1C;
+}
+.cardProduct--mainDescription__container--text p.mainDescription {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1C1C1C;
+  padding: 30px 0;
+  max-width: 600px;
+}
+.cardProduct--mainDescription__container--text h5 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1C1C1C;
+}
+.cardProduct--mainDescription__container--text__buttons {
+  display: flex;
+  gap: 10px;
+  padding: 14px 0;
+}
+.cardProduct--mainDescription__container--text p.bold {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1C1C1C;
+}
+.cardProduct--mainDescription__container--text__priceContainer {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+  padding-top: 30px;
+}
+.cardProduct--mainDescription__container--text__priceContainer h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #1C1C1C;
+}
+.cardProduct--accordionDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px 0px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.cardProduct--accordionDescription h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  padding-bottom: 18px;
+  margin: 0 30px;
+}
+.cardProduct--accordionDescription--items {
+  border: 1px solid #ccc;
+  max-width: 1373px;
+  border: 1px solid #EDF0F7;
+  border-radius: 10px;
+}
+.cardProduct--accordionDescription--items__item {
+  padding: 20px;
+  border: 1px solid #EDF0F7;
+  border-radius: 10px;
+  margin: -1px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.cardProduct--accordionDescription--items__item h2.accordion-header {
+  margin: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.cardProduct--accordionDescription--items__item img.accordion-icon {
+  transition: transform 0.3s ease;
+  height: 100%;
+  margin: auto 0;
+}
+.cardProduct--accordionDescription--items p.accordion-content {
+  display: none;
+  padding: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  padding: 17px 20px;
+}
+.cardProduct--characteristicsDescription {
+  margin: 0 30px;
+  max-width: 1302px;
+}
+.cardProduct--characteristicsDescription h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+.cardProduct--characteristicsDescription__text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.cardProduct--characteristicsDescription__text--firstContainer {
+  max-width: 581px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.cardProduct--characteristicsDescription__text--firstContainer__string {
+  display: flex;
+  justify-content: space-between;
+  gap: 29px;
+}
+.cardProduct--characteristicsDescription__text--firstContainer__string p.gray {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.cardProduct--characteristicsDescription__text--secondContainer {
+  max-width: 581px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.cardProduct--characteristicsDescription__text--secondContainer__string {
+  display: flex;
+  justify-content: space-between;
+  gap: 29px;
+}
+.cardProduct--characteristicsDescription__text--secondContainer__string p.gray {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.active h2 {
+  font-weight: 600;
+  color: #F03F29;
+}
+.active p {
+  display: block;
+}
+.active .accordion-icon {
+  transform: rotate(180deg);
+}
