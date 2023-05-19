@@ -1,5 +1,5 @@
-export const accordionHeaders = document.querySelectorAll('.questions--container__accordion--main');
-accordionHeaders.forEach(header => {
+export const accordion = document.querySelectorAll('.questions--container__accordion--main');
+accordion.forEach(header => {
         header.addEventListener('click', event => {
             // const accordionItem = event.target.parentElement;
             // const accordionHeader = accordionItem.querySelector('.accordion-header');

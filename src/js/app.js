@@ -1,11 +1,10 @@
 import 'normalize.css/normalize.css'
 import '../sass/style.sass'
-import { accordion, accordionHeaders } from './accordion'
+import { accordion } from './accordion'
 import { onDocumentReady, importAll } from './functions.js'
 import { swiperSlider } from './slider'
 import { counters } from './counter'
 import { carusel } from './carusel'
-import { sliderGood } from './sliderGood'
 import { caruselGoods } from './caruselGoods'
 
 importAll(
@@ -23,8 +22,9 @@ onDocumentReady(function () {
 
 swiperSlider()
 carusel()
-//accordion()
-counters()
-accordionHeaders()
-sliderGood()
 caruselGoods()
+
+accordion()
+
+counters()
+
