@@ -1,0 +1,15 @@
+.offer {
+  padding: 100px 32px;
+}
+.offer--container {
+  margin: 0 30px;
+}
+.offer--container h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
