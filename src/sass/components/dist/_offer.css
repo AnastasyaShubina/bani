@@ -1,10 +1,10 @@
 .offer {
   padding: 100px 32px;
 }
-.offer--container {
+.offer--containerText {
   margin: 0 30px;
 }
-.offer--container h2 {
+.offer--containerText h2 {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
