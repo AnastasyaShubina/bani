@@ -4,14 +4,16 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export const swiperSlider = () => {
-    new Swiper('.sliderMain', {
+export const carusel = () => {
+    new Swiper(".carusel", {
         modules: [Navigation, Pagination],
-
+        slidesPerView: 4,
+        // centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
         pagination: {
-            type: 'bullets',
+            el: ".swiper-pagination",
             clickable: true,
-            el: '.swiper-pagination-bullets'
-          },
-      });
+        },
+    });
 }
