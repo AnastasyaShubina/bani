@@ -2,14 +2,18 @@
   background-image: url('../images/application.png')
   background-repeat: no-repeat
   background-size: cover
+  @media (max-width: 768px)
+    background-image: url('../images/applicationMobile.png')
   &--container
     z-index: 99
     max-width: 1440px
     margin: 0 auto
     padding: 140px 35px
+    @media (max-width: 768px)
+        padding: 20px 7px 420px 17px
     &__text
       position: relative
-      width: 750px
+      max-width: 750px
       &--blur
         position: absolute
         width: 100%
@@ -18,6 +22,8 @@
         z-index: 0
         border-radius: 20px
         background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%)
+        @media (max-width: 768px)
+          
       &--content
         position: relative
         z-index: 1
@@ -30,6 +36,9 @@
           line-height: 59px
           letter-spacing: -0.015em
           color: #FFFFFF
+          @media (max-width: 768px)
+            font-size: 22px
+            line-height: 26px
         p
           font-family: 'Gilroy'
           font-style: normal
@@ -39,3 +48,6 @@
           letter-spacing: -0.015em
           color: #FFFFFF
           padding: 25px 0 25px
+          @media (max-width: 768px)
+            font-size: 14px
+            line-height: 140% 
