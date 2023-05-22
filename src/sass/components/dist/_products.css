@@ -1,0 +1,404 @@
+.products {
+  margin: 0 30px 100px;
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .products {
+    margin: 0;
+  }
+}
+.products--container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.products--container__content h2 {
+  color: #000;
+  font-size: 50px;
+  font-family: Gilroy;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+@media (max-width: 768px) {
+  .products--container__content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+  }
+}
+.products--container__content p {
+  color: #000;
+  font-size: 16px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .products--container__content p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+.products--container__content--cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 27px;
+  margin-top: 38px;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards {
+    grid-template-columns: 1fr;
+  }
+}
+.products--container__content--cards__bathhouseBarrel {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.products--container__content--cards__bathhouseBarrel img {
+  width: 100%;
+}
+.products--container__content--cards__bathhouseBarrel--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__bathhouseBarrel--text {
+    gap: 8px;
+  }
+}
+.products--container__content--cards__bathhouseBarrel--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__bathhouseBarrel--text h4 {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+  }
+}
+.products--container__content--cards__bathhouseBarrel--text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__bathhouseBarrel--text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+  }
+}
+.products--container__content--cards__bathhouseBarrel--text h5 {
+  color: #F03F29;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__bathhouseBarrel--text h5 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+}
+.products--container__content--cards__grillHouse {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.products--container__content--cards__grillHouse img {
+  width: 100%;
+}
+.products--container__content--cards__grillHouse--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products--container__content--cards__grillHouse--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__grillHouse--text h4 {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+  }
+}
+.products--container__content--cards__grillHouse--text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__grillHouse--text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+  }
+}
+.products--container__content--cards__grillHouse--text h5 {
+  color: #F03F29;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__grillHouse--text h5 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+}
+.products--container__content--cards__kempings {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.products--container__content--cards__kempings img {
+  width: 100%;
+}
+.products--container__content--cards__kempings--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products--container__content--cards__kempings--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__kempings--text h4 {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+  }
+}
+.products--container__content--cards__kempings--text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__kempings--text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+  }
+}
+.products--container__content--cards__kempings--text h5 {
+  color: #F03F29;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__kempings--text h5 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+}
+.products--container__content--cards__fonts {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.products--container__content--cards__fonts img {
+  width: 100%;
+}
+.products--container__content--cards__fonts--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products--container__content--cards__fonts--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__fonts--text h4 {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+  }
+}
+.products--container__content--cards__fonts--text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__fonts--text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+  }
+}
+.products--container__content--cards__fonts--text h5 {
+  color: #F03F29;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__fonts--text h5 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+}
+.products--container__content--cards__accessiores {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.products--container__content--cards__accessiores img {
+  width: 100%;
+}
+.products--container__content--cards__accessiores--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products--container__content--cards__accessiores--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__accessiores--text h4 {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+  }
+}
+.products--container__content--cards__accessiores--text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__accessiores--text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+  }
+}
+.products--container__content--cards__accessiores--text h5 {
+  color: #F03F29;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__accessiores--text h5 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+}
+.products--container__content--cards__gardenFurniture {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.products--container__content--cards__gardenFurniture img {
+  width: 100%;
+}
+.products--container__content--cards__gardenFurniture--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products--container__content--cards__gardenFurniture--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__gardenFurniture--text h4 {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+  }
+}
+.products--container__content--cards__gardenFurniture--text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__gardenFurniture--text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+  }
+}
+.products--container__content--cards__gardenFurniture--text h5 {
+  color: #F03F29;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .products--container__content--cards__gardenFurniture--text h5 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+}

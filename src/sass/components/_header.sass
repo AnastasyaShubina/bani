@@ -11,17 +11,31 @@
         justify-content: space-between
         margin: auto
         padding-right: 32px
+        @media (max-width: 768px)
+        &__mobile 
+            display: none
+            margin: auto
+            @media (max-width: 768px)
+                display: block
+                flex: 0.9
+            // img.header--catalogMenu__img 
+
         &__logo
+            @media (max-width: 768px)
+                display: none
             &--img
                 width: 120px
                 height: 84px
                 background-color: #F03F29
         &__nav
             margin: auto 0
-
+            @media (max-width: 768px)
+                display: none
             ul
                 display: flex
                 gap: 40px
+                @media (max-width: 1440px)
+                    gap: 15px
                 li
                     a
                         font-size: 14px
@@ -37,14 +51,31 @@
                 font-size: 24px
                 font-family: Gilroy
                 font-weight: 700
+                @media (max-width: 768px)
+                    font-family: 'Gilroy'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 16px
+                    line-height: 19px
+                    display: flex
+                    align-items: center
+                    text-align: center
+                    color: #FFFFFF
+                    margin: 23px 30px
+                    flex: 1
         &__buttonCareService
             margin: auto 0
-
+            @media (max-width: 768px)
+                display: none
             
         &__buttonLocation
             margin: auto 0
-
+            @media (max-width: 768px)
+                display: none
         
         &__buttonUser
             margin: auto 0
+            @media (max-width: 768px)
+                flex: 0
+                // max-height: 30px
 

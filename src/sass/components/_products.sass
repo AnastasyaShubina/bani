@@ -1,6 +1,8 @@
 .products
-  
+  margin: 0  30px 100px
   background-color: #fff
+  @media (max-width: 768px)
+    margin: 0
   &--container 
     max-width: 1440px
     margin: 0 auto
@@ -11,16 +13,26 @@
         font-family: Gilroy
         font-weight: 500
         margin-bottom: 28px
+        @media (max-width: 768px)
+          font-size: 22px
+          font-weight: 700
+          line-height: 52px
+          letter-spacing: -0.015em
       p 
         color: #000
         font-size: 16px
         font-family: Gilroy
         font-weight: 400
+        @media (max-width: 768px)
+            font-size: 14px
+            line-height: 150%
       &--cards 
         grid-template-columns: 1fr 1fr 1fr
         display: grid
         gap: 27px
         margin-top: 38px
+        @media (max-width: 768px)
+           grid-template-columns: 1fr
         &__bathhouseBarrel
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -34,24 +46,38 @@
             display: flex
             flex-direction: column
             gap: 10px
-
+            @media (max-width: 768px)
+              gap: 8px
             h4 
               color: #000
               font-family: Gilroy
               font-weight: 600
-              
+              @media (max-width: 768px)
+                font-size: 22px
+                line-height: 130%
+                font-weight: 500
             p 
               color: #000
               font-size: 15px
               font-family: Gilroy
               font-weight: 400
-              
+              @media (max-width: 768px)
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 21px
+                display: flex
+                align-items: center
+                color: #4A4A4A
             h5 
               color: #F03F29
               font-family: Gilroy
               font-weight: 600
               font-size: 20px
               margin: 0
+              @media (max-width: 768px)
+                font-size: 20px
+                line-height: 130%
         &__grillHouse
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -70,19 +96,32 @@
               color: #000
               font-family: Gilroy
               font-weight: 600
-              
+              @media (max-width: 768px)
+                font-size: 22px
+                line-height: 130%
+                font-weight: 500
             p 
               color: #000
               font-size: 15px
               font-family: Gilroy
               font-weight: 400
-              
+              @media (max-width: 768px)
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 21px
+                display: flex
+                align-items: center
+                color: #4A4A4A
             h5 
               color: #F03F29
               font-family: Gilroy
               font-weight: 600
               font-size: 20px
               margin: 0
+              @media (max-width: 768px)
+                font-size: 20px
+                line-height: 130%
         &__kempings
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -101,19 +140,32 @@
               color: #000
               font-family: Gilroy
               font-weight: 600
-              
+              @media (max-width: 768px)
+                font-size: 22px
+                line-height: 130%
+                font-weight: 500
             p 
               color: #000
               font-size: 15px
               font-family: Gilroy
               font-weight: 400
-              
+              @media (max-width: 768px)
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 21px
+                display: flex
+                align-items: center
+                color: #4A4A4A
             h5 
               color: #F03F29
               font-family: Gilroy
               font-weight: 600
               font-size: 20px
               margin: 0
+              @media (max-width: 768px)
+                font-size: 20px
+                line-height: 130%
         &__fonts
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -132,19 +184,32 @@
               color: #000
               font-family: Gilroy
               font-weight: 600
-              
+              @media (max-width: 768px)
+                font-size: 22px
+                line-height: 130%
+                font-weight: 500
             p 
               color: #000
               font-size: 15px
               font-family: Gilroy
               font-weight: 400
-              
+              @media (max-width: 768px)
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 21px
+                display: flex
+                align-items: center
+                color: #4A4A4A
             h5 
               color: #F03F29
               font-family: Gilroy
               font-weight: 600
               font-size: 20px
               margin: 0
+              @media (max-width: 768px)
+                font-size: 20px
+                line-height: 130%
         &__accessiores
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -163,19 +228,33 @@
               color: #000
               font-family: Gilroy
               font-weight: 600
-              
+              @media (max-width: 768px)
+                font-size: 22px
+                line-height: 130%
+                font-weight: 500
             p 
               color: #000
               font-size: 15px
               font-family: Gilroy
               font-weight: 400
-              
+              @media (max-width: 768px)
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 21px
+                display: flex
+                align-items: center
+                color: #4A4A4A
             h5 
               color: #F03F29
               font-family: Gilroy
               font-weight: 600
               font-size: 20px
               margin: 0
+              @media (max-width: 768px)
+                font-size: 20px
+                line-height: 130%
+
         &__gardenFurniture
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -194,16 +273,29 @@
               color: #000
               font-family: Gilroy
               font-weight: 600
-              
+              @media (max-width: 768px)
+                font-size: 22px
+                line-height: 130%
+                font-weight: 500
             p 
               color: #000
               font-size: 15px
               font-family: Gilroy
               font-weight: 400
-              
+              @media (max-width: 768px)
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 21px
+                display: flex
+                align-items: center
+                color: #4A4A4A
             h5 
               color: #F03F29
               font-family: Gilroy
               font-weight: 600
               font-size: 20px
               margin: 0
+              @media (max-width: 768px)
+                font-size: 20px
+                line-height: 130%

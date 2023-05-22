@@ -1,6 +1,8 @@
 .footerBottom
     background-color: #242424
     padding: 0 33px
+    @media (max-width: 768px)
+        padding: 0 16px
     &--container
         margin: auto 
         max-width: 1440px
@@ -8,6 +10,9 @@
             display: flex
             justify-content: space-between
             padding: 50px 0
+            @media (max-width: 768px)
+                flex-direction: column
+                gap: 40px
             &--info
                 max-width: 310px
                 h4 
@@ -35,6 +40,10 @@
             &--listContainer
                 display: flex
                 gap: 149px
+                @media (max-width: 768px)
+                    grid-template-columns: 1fr 1fr
+                    display: grid
+                    gap: 50px 25px
                 &__company 
                     max-width: 166px
                     h4 
@@ -90,6 +99,8 @@
                                 
                 &__contacts
                     max-width: 287px
+                    @media (max-width: 768px)
+                        max-width: 287px
                     &--text
                         h4 
                             font-family: 'Gilroy'
@@ -152,6 +163,11 @@
             
             display: flex
             justify-content: space-between
+            @media (max-width: 768px)
+                flex-direction: column
+                gap: 10px
+                padding: 30px 0
+                text-align: center
             p 
                 font-family: 'Gilroy'
                 font-style: normal
@@ -160,6 +176,7 @@
                 line-height: 19px
                 color: rgba(255, 255, 255, 0.5)
                 padding: 20px 0 25px
-            
+                @media (max-width: 768px)
+                    padding: 0
         
             

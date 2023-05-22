@@ -5,23 +5,37 @@
     margin: 0 auto
     &__content
       margin: 30px 33px
+      @media (max-width: 768px)
+        margin: 30px 16px
       h2
         color: #000
         font-size: 50px
         font-family: Gilroy
         font-weight: 500
         margin-bottom: 28px
+        @media (max-width: 768px)
+          font-weight: 700
+          font-size: 22px
+          line-height: 52px
+          margin-bottom: 1px
+
       p
         color: #000
         font-size: 18px
         font-family: Gilroy
         font-weight: 400
+        @media (max-width: 768px)
+            font-size: 14px
+            line-height: 150%
+
     &__accordion
       display: flex
       flex-direction: column
       max-width: 1373px
       gap: 30px
       margin: 0 30px
+      @media (max-width: 768px)
+        gap: 20px
       &--main
         border: 1px solid #ccc
         max-width: 1373px
@@ -35,6 +49,8 @@
           display: flex
           justify-content: space-between
           cursor: pointer
+          @media (max-width: 768px)
+            padding: 10px
           h2
             margin: 0
             font-family: 'Gilroy'
@@ -45,10 +61,15 @@
             display: flex
             align-items: center
             color: #000000
+            @media (max-width: 768px)
+              font-size: 14px
+              line-height: 17px
           img.accordion-icon
             transition: transform 0.3s ease
             height: 100%
             margin: auto 0
+            @media (max-width: 768px)
+              width: 12px
         p
           display: none
           padding: 10px
@@ -59,6 +80,10 @@
           line-height: 150%
           color: #000000
           padding: 17px 20px
+          @media (max-width: 768px)
+              font-size: 14px
+              line-height: 17px
+              padding: 10px
 .active
   h2
     font-weight: 600

@@ -1,6 +1,17 @@
 .feedBack
   .feedBack--container 
+    
     .feedBack--container__content
+      .feedBack--container__content--mainContent
+        .feedBack--container__content--mainContent__contentText
+          h2 Более 200 отзывов
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        .feedBack--container__content--mainContent__containerButton
+          include ./components/buttonPrimary
+          +buttonPrimary('Все отзывы')
+        .feedBack--container__content--mainContent__containerButtonMobile 
+          a(href="#") 
+            p.mobileButton Все отзывы
       .feedBack--container__content--cards 
         .feedBack--container__content--cards__first
           img(src="./images/feedBackFirst.svg", alt="feedBackFirst")

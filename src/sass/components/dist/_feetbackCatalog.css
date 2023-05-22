@@ -1,0 +1,76 @@
+.feetbackCatalog {
+  margin: 0 30px 100px;
+}
+.feetbackCatalog--container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.feetbackCatalog--container__header h1 {
+  color: #000;
+  font-size: 50px;
+  font-family: Gilroy;
+  font-weight: 500;
+  margin-bottom: 28px;
+  text-align: left;
+}
+.feetbackCatalog--container__header p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 147.9%;
+  color: #1C1C1C;
+}
+.feetbackCatalog--container__first {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+}
+.feetbackCatalog--container__first--text {
+  margin: auto 0;
+}
+.feetbackCatalog--container__first--text h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.feetbackCatalog--container__first--text p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 147.9%;
+  color: #1C1C1C;
+}
+.feetbackCatalog--container__first--video {
+  margin: auto;
+}
+.feetbackCatalog--container__first--video video {
+  margin: auto;
+}
+.feetbackCatalog--container__goods {
+  margin-top: 100px;
+}
+.feetbackCatalog--container__goods--header h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+.feetbackCatalog--container__goods--items {
+  margin-top: 30px;
+}
+.feetbackCatalog--containerCarusel {
+  max-width: 1440px;
+  margin: 0 auto;
+}

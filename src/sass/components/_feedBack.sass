@@ -5,10 +5,14 @@
     margin: 0 auto
     display: flex
     padding: 100px 35px
+    @media (max-width: 768px)
+      padding: 50px 16px
     &__content
       &--mainContent
         display: flex
         gap: 131px
+        @media (max-width: 768px)
+          gap: 20px
         &__contentText
           max-width: 1083px
           h2 
@@ -17,6 +21,11 @@
             font-family: Gilroy
             font-weight: 500
             margin-bottom: 28px
+            @media (max-width: 768px)
+              font-size: 22px
+              line-height: 52px
+              font-weight: 700
+              margin-bottom: 2px
           p 
             color: #000
             font-size: 16px
@@ -25,14 +34,39 @@
         &__containerButton
           align-self: center
           margin-bottom: 70px
+          @media (max-width: 768px)
+            display: none
+        &__containerButtonMobile 
+          position: absolute
+          right: 16px
+          .mobileButton 
+            font-family: 'Gilroy'
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            line-height: 52px
+            display: flex
+            align-items: center
+            letter-spacing: -0.015em
+            color: #F03F29
       &--cards 
         grid-template-columns: 1fr 1fr 1fr
         display: grid
         gap: 30px
         margin-top: 38px
+        @media (max-width: 1440px)
+          gap: 10px
+        @media (max-width: 768px)
+          grid-template-columns: 1fr 
+          gap: 45px
+
         &__first
           img
             padding-bottom: 30px
+            @media (max-width: 1440px)
+              width: 100%
+            @media (max-width: 768px)
+              padding-bottom: 20px
           &--text
             max-width: 425px
             display: flex
@@ -45,6 +79,9 @@
               font-size: 20px
               line-height: 130%
               color: #000
+              @media (max-width: 1440px)
+                font-size: 22px
+                line-height: 130%
             p 
               font-family: 'Gilroy'
               font-style: normal
@@ -52,11 +89,18 @@
               font-size: 16px
               line-height: 21px
               color: #81859C
+              @media (max-width: 1440px)
+                font-size: 16px
+                line-height: 21px
             &__buttonSecondary
               padding-top: 10px
         &__second
           img
             padding-bottom: 30px
+            @media (max-width: 1440px)
+              max-width: 100%
+            @media (max-width: 768px)
+              padding-bottom: 20px
           &--text
             max-width: 425px
             display: flex
@@ -81,6 +125,11 @@
         &__third
           img
             padding-bottom: 30px
+            @media (max-width: 1440px)
+              max-width: 100%
+            @media (max-width: 768px)
+              padding-bottom: 20px
+
           &--text
             max-width: 425px
             display: flex

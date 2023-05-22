@@ -1,0 +1,112 @@
+.capacity {
+  background-color: #fff;
+  margin: 0 30px 100px;
+}
+.capacity--container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.capacity--container__content--main {
+  display: flex;
+  justify-content: space-between;
+}
+.capacity--container__content--main__text {
+  max-width: 978px;
+}
+.capacity--container__content--main__text h2 {
+  color: #000;
+  font-size: 50px;
+  font-family: Gilroy;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+.capacity--container__content--main__text p {
+  color: #000;
+  font-size: 16px;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+.capacity--container__content--main__containerButton {
+  margin-top: 9px;
+}
+.capacity--container__content--cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 27px;
+  margin-top: 38px;
+}
+.capacity--container__content--cards__bathhouseBarrel {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.capacity--container__content--cards__bathhouseBarrel img {
+  width: 100%;
+}
+.capacity--container__content--cards__bathhouseBarrel--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.capacity--container__content--cards__bathhouseBarrel--text h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+.capacity--container__content--cards__bathhouseBarrel--text img {
+  max-width: 79px;
+}
+.capacity--container__content--cards__grillHouse {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.capacity--container__content--cards__grillHouse img {
+  width: 100%;
+}
+.capacity--container__content--cards__grillHouse--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.capacity--container__content--cards__grillHouse--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+.capacity--container__content--cards__grillHouse--text img {
+  max-width: 79px;
+}
+.capacity--container__content--cards__kempings {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.capacity--container__content--cards__kempings img {
+  width: 100%;
+}
+.capacity--container__content--cards__kempings--text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.capacity--container__content--cards__kempings--text h4 {
+  color: #000;
+  font-family: Gilroy;
+  font-weight: 600;
+}
+.capacity--container__content--cards__kempings--text img {
+  max-width: 79px;
+}
