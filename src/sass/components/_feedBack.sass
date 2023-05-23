@@ -39,6 +39,9 @@
         &__containerButtonMobile 
           position: absolute
           right: 16px
+          display: none
+          @media (max-width: 768px)
+            display: block
           .mobileButton 
             font-family: 'Gilroy'
             font-style: normal
@@ -98,7 +101,7 @@
           img
             padding-bottom: 30px
             @media (max-width: 1440px)
-              max-width: 100%
+              width: 100%
             @media (max-width: 768px)
               padding-bottom: 20px
           &--text
@@ -126,7 +129,7 @@
           img
             padding-bottom: 30px
             @media (max-width: 1440px)
-              max-width: 100%
+              width: 100%
             @media (max-width: 768px)
               padding-bottom: 20px
 

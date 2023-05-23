@@ -57,6 +57,12 @@
 .feedBack--container__content--mainContent__containerButtonMobile {
   position: absolute;
   right: 16px;
+  display: none;
+}
+@media (max-width: 768px) {
+  .feedBack--container__content--mainContent__containerButtonMobile {
+    display: block;
+  }
 }
 .feedBack--container__content--mainContent__containerButtonMobile .mobileButton {
   font-family: "Gilroy";
@@ -141,7 +147,7 @@
 }
 @media (max-width: 1440px) {
   .feedBack--container__content--cards__second img {
-    max-width: 100%;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -179,7 +185,7 @@
 }
 @media (max-width: 1440px) {
   .feedBack--container__content--cards__third img {
-    max-width: 100%;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
