@@ -1,6 +1,11 @@
 .breadCrumbs {
   margin: 50px 30px 30px 30px;
 }
+@media (max-width: 768px) {
+  .breadCrumbs {
+    margin: 16px 20px;
+  }
+}
 .breadCrumbs--text {
   display: flex;
   margin: 0 auto;
