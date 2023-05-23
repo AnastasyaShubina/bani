@@ -3,7 +3,7 @@
 }
 .breadCrumbs--text {
   display: flex;
-  margin: 50px 0px 30px 0px;
+  margin: 0 auto;
   gap: 5px;
   max-width: 1440px;
 }

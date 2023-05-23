@@ -1,0 +1,12 @@
+.buttonUser {
+  margin: auto 0;
+  border-radius: 2rem;
+  border: 1px solid #fff;
+  background-color: #242424;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}

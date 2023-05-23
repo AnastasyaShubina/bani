@@ -48,6 +48,7 @@
 }
 .footerBottom--container__first--info__messengers img {
   margin: 20px 20px 0 0;
+  cursor: pointer;
 }
 .footerBottom--container__first--listContainer {
   display: flex;
