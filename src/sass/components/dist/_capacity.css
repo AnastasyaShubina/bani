@@ -2,6 +2,11 @@
   background-color: #fff;
   margin: 0 30px 100px;
 }
+@media (max-width: 768px) {
+  .capacity {
+    margin: 0 16px 50px;
+  }
+}
 .capacity--container {
   max-width: 1440px;
   margin: 0 auto;
@@ -20,20 +25,46 @@
   font-weight: 500;
   margin-bottom: 28px;
 }
+@media (max-width: 768px) {
+  .capacity--container__content--main__text h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    max-width: 250px;
+    margin-bottom: 15px;
+  }
+}
 .capacity--container__content--main__text p {
   color: #000;
   font-size: 16px;
   font-family: Gilroy;
   font-weight: 400;
 }
+@media (max-width: 768px) {
+  .capacity--container__content--main__text p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
 .capacity--container__content--main__containerButton {
   margin-top: 9px;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--main__containerButton {
+    display: none;
+  }
 }
 .capacity--container__content--cards {
   grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   gap: 27px;
   margin-top: 38px;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--cards {
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+  }
 }
 .capacity--container__content--cards__bathhouseBarrel {
   border: 1px solid #8F8F8F;
@@ -50,6 +81,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--cards__bathhouseBarrel--text {
+    margin: 10px 20px;
+  }
 }
 .capacity--container__content--cards__bathhouseBarrel--text h4 {
   font-family: "Gilroy";
@@ -58,6 +95,11 @@
   font-size: 30px;
   line-height: 130%;
   color: #000000;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--cards__bathhouseBarrel--text h4 {
+    font-size: 22px;
+  }
 }
 .capacity--container__content--cards__bathhouseBarrel--text img {
   max-width: 79px;
@@ -77,11 +119,25 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--cards__grillHouse--text {
+    margin: 10px 20px;
+  }
 }
 .capacity--container__content--cards__grillHouse--text h4 {
-  color: #000;
-  font-family: Gilroy;
+  font-family: "Gilroy";
+  font-style: normal;
   font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--cards__grillHouse--text h4 {
+    font-size: 22px;
+  }
 }
 .capacity--container__content--cards__grillHouse--text img {
   max-width: 79px;
@@ -101,11 +157,25 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--cards__kempings--text {
+    margin: 10px 20px;
+  }
 }
 .capacity--container__content--cards__kempings--text h4 {
-  color: #000;
-  font-family: Gilroy;
+  font-family: "Gilroy";
+  font-style: normal;
   font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .capacity--container__content--cards__kempings--text h4 {
+    font-size: 22px;
+  }
 }
 .capacity--container__content--cards__kempings--text img {
   max-width: 79px;

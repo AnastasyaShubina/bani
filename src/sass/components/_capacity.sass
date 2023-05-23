@@ -1,6 +1,8 @@
 .capacity
   background-color: #fff
   margin: 0  30px 100px
+  @media (max-width: 768px)
+      margin: 0 16px 50px
   &--container 
     max-width: 1440px
     margin: 0 auto
@@ -16,18 +18,33 @@
             font-family: Gilroy
             font-weight: 500
             margin-bottom: 28px
+            @media (max-width: 768px)
+              font-weight: 700
+              font-size: 22px
+              line-height: 27px
+              max-width: 250px
+              margin-bottom: 15px
           p 
             color: #000
             font-size: 16px
             font-family: Gilroy
             font-weight: 400
+            @media (max-width: 768px)
+              font-size: 14px
+              line-height: 150%
+
         &__containerButton
           margin-top: 9px
+          @media (max-width: 768px)
+              display: none
       &--cards 
         grid-template-columns: 1fr 1fr 1fr
         display: grid
         gap: 27px
         margin-top: 38px
+        @media (max-width: 768px)
+          grid-template-columns: 1fr
+          margin-top: 15px
         &__bathhouseBarrel
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -41,6 +58,9 @@
             display: flex
             flex-direction: row
             justify-content: space-between
+            align-items: center
+            @media (max-width: 768px)
+              margin: 10px 20px
             h4 
               font-family: 'Gilroy'
               font-style: normal
@@ -48,6 +68,8 @@
               font-size: 30px
               line-height: 130%
               color: #000000
+              @media (max-width: 768px)
+                  font-size: 22px
             img
               max-width: 79px
               
@@ -64,10 +86,18 @@
             display: flex
             flex-direction: row
             justify-content: space-between
+            align-items: center
+            @media (max-width: 768px)
+              margin: 10px 20px
             h4 
-              color: #000
-              font-family: Gilroy
+              font-family: 'Gilroy'
+              font-style: normal
               font-weight: 600
+              font-size: 30px
+              line-height: 130%
+              color: #000000
+              @media (max-width: 768px)
+                  font-size: 22px
             img
               max-width: 79px
               
@@ -84,10 +114,18 @@
             display: flex
             flex-direction: row
             justify-content: space-between
+            align-items: center
+            @media (max-width: 768px)
+              margin: 10px 20px
             h4 
-              color: #000
-              font-family: Gilroy
+              font-family: 'Gilroy'
+              font-style: normal
               font-weight: 600
+              font-size: 30px
+              line-height: 130%
+              color: #000000
+              @media (max-width: 768px)
+                  font-size: 22px
             img
               max-width: 79px 
         
