@@ -85,7 +85,7 @@
 }
 @media (max-width: 768px) {
   .capacity--container__content--cards__bathhouseBarrel--text {
-    margin: 10px 20px;
+    margin: 10px 15px 15px 15px;
   }
 }
 .capacity--container__content--cards__bathhouseBarrel--text h4 {
@@ -123,7 +123,7 @@
 }
 @media (max-width: 768px) {
   .capacity--container__content--cards__grillHouse--text {
-    margin: 10px 20px;
+    margin: 10px 15px 15px 15px;
   }
 }
 .capacity--container__content--cards__grillHouse--text h4 {
@@ -161,7 +161,7 @@
 }
 @media (max-width: 768px) {
   .capacity--container__content--cards__kempings--text {
-    margin: 10px 20px;
+    margin: 10px 15px 15px 15px;
   }
 }
 .capacity--container__content--cards__kempings--text h4 {
