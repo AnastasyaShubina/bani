@@ -1,17 +1,17 @@
-.buttonSecondary {
+.buttonQuinary {
   border-radius: 2rem;
   border: none;
-  padding: 10px 31px;
+  padding: 6px 31px;
   line-height: 20px;
-  background-color: #F03F29;
+  background-color: #F7FAFC;
   font-size: 14px;
   font-family: Gilroy;
   font-weight: 400;
-  color: #fff;
-  white-space: nowrap;
+  color: #000;
+  border: 1px solid #F03F29;
 }
 @media (max-width: 768px) {
-  .buttonSecondary {
-    padding: 10px 35px;
+  .buttonQuinary {
+    padding: 7px 60px;
   }
 }

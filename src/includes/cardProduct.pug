@@ -1,6 +1,8 @@
 .cardProduct 
   .cardProduct--mainDescription
    .cardProduct--mainDescription__container 
+    .cardProduct--mainDescription__container--mobile 
+      h2.mobileStyle Баня-бочка «ДУО»
     .cardProduct--mainDescription__container--images 
         img(src="./images/kempings.png", alt="")
         //- .swiperGood2(style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff")
@@ -22,7 +24,7 @@
         //-       img(src="https://swiperjs.com/demos/images/nature-3.jpg")
         //-     div.swiper-slide
     .cardProduct--mainDescription__container--text
-        h2 Баня-бочка «ДУО»
+        h2.desctopStyle Баня-бочка «ДУО»
         p.mainDescription Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
         h5 Выберите комплектацию:
         .cardProduct--mainDescription__container--text__buttons 
@@ -75,8 +77,8 @@
           img(src="./images/arrow1.png", alt="").accordion-icon
         p.accordion-content TEXT5
  
-      .cardProduct--accordionDescription--items
-        .cardProduct--accordionDescription--items__item
+      .questions--container__accordion--main
+        .questions--container__accordion--main__item
           h2.accordion-header Каркас
           img(src="./images/arrow1.png", alt="").accordion-icon
         p.accordion-content Еловый или кедровый профиль толщиной 42х92 мм, влажностью 10%;
@@ -92,6 +94,7 @@
           p.gray Кол-во секций
           img(src="/images/Line 9.svg", alt="").line1
           p.gray 2
+
         .cardProduct--characteristicsDescription__text--firstContainer__string
           p.gray ДхШхВ
           img(src="/images/Line 10.svg", alt="").line1

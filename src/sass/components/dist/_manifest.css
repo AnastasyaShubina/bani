@@ -1,5 +1,6 @@
 .manifest {
   background-color: #F7FAFC;
+  padding: 0 32px;
 }
 .manifest .manifest--container {
   max-width: 1440px;

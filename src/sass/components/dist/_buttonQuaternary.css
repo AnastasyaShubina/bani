@@ -1,17 +1,16 @@
-.buttonSecondary {
+.buttonQuaternary {
   border-radius: 2rem;
   border: none;
   padding: 10px 31px;
   line-height: 20px;
-  background-color: #F03F29;
+  background-color: #5F5F5F;
   font-size: 14px;
   font-family: Gilroy;
   font-weight: 400;
   color: #fff;
-  white-space: nowrap;
 }
 @media (max-width: 768px) {
-  .buttonSecondary {
-    padding: 10px 35px;
+  .buttonQuaternary {
+    padding: 10px 16px;
   }
 }

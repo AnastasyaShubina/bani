@@ -50,6 +50,7 @@
 @media (max-width: 768px) {
   .questions--container__accordion {
     gap: 20px;
+    margin: 0 16px;
   }
 }
 .questions--container__accordion--main {

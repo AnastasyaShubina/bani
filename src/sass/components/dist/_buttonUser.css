@@ -10,3 +10,9 @@
   flex-direction: row;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .buttonUser {
+    width: 30px;
+    height: 30px;
+  }
+}
