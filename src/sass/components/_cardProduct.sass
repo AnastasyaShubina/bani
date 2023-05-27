@@ -1,4 +1,4 @@
-.cardProduct 
+.cardProduct
   margin: 0 0px 100px
   @media (max-width: 768px)
     margin: 0 0 40px
@@ -11,13 +11,13 @@
       gap: 50px
       @media (max-width: 768px)
         flex-direction: column
-        margin: 0 16px 
+        margin: 0 16px
         gap: 10px
-      &--mobile 
+      &--mobile
         display: none
         @media (max-width: 768px)
           display: block
-        h2.mobileStyle 
+        h2.mobileStyle
           font-family: 'Gilroy'
           font-style: normal
           font-weight: 700
@@ -27,15 +27,43 @@
           align-items: center
           letter-spacing: -0.015em
           color: #1C1C1C
-      &--images 
-          img
-            height: 410px
-            width: 475px
-            @media (max-width: 768px)
-              width: 328px
+      &--images
+        width: 30%
+        .swiper
+          width: 100%
+          height: 300px
+          margin-left: auto
+          margin-right: auto
+
+          &-slide
+            background-size: cover
+            background-position: center
+
+        .swiperGood2
+          height: 80%
+          width: 100%
+
+        .swiperGood
+          height: 20%
+          box-sizing: border-box
+          padding: 10px 0
+
+          & .swiper-slide
+            width: 25%
+            height: 100%
+            opacity: 0.4
+
+          & .swiper-slide-thumb-active
+            opacity: 1
+
+        .swiper-slide img
+          display: block
+          width: 100%
+          height: 100%
+          object-fit: cover
 
       &--text
-        h2 
+        h2
           font-family: 'Gilroy'
           font-style: normal
           font-weight: 500
@@ -46,8 +74,7 @@
           @media (max-width: 768px)
             display: none
 
-
-        p.mainDescription 
+        p.mainDescription
           font-family: 'Gilroy'
           font-style: normal
           font-weight: 400
@@ -59,19 +86,19 @@
           @media (max-width: 768px)
             font-size: 14px
             padding: 0
-        h5 
+        h5
           font-family: 'Gilroy'
           font-style: normal
           font-weight: 500
           font-size: 18px
-          line-height: 150% 
+          line-height: 150%
           color: #1C1C1C
           margin: 20px 0 10px
 
-        &__buttons 
+        &__buttons
           display: flex
           gap: 10px
-          padding: 14px 
+          padding: 14px
           @media (max-width: 768px)
             gap: 15px
             padding: 0
@@ -85,7 +112,7 @@
           @media (max-width: 768px)
             font-size: 12px
             margin-top: 10px
-        &__priceContainer 
+        &__priceContainer
           display: flex
           gap: 27px
           align-items: center
@@ -106,16 +133,16 @@
               font-size: 22px
               font-weight: 600
   &--accordionDescription
-      display: flex
-      flex-direction: column
+    display: flex
+    flex-direction: column
       //max-width: 1373px
-      gap: 30px
-      padding: 100px 0px
-      max-width: 1440px
-      margin: 0 auto
-      @media (max-width: 768px)
-        padding: 20px 0
-        gap: 0
+    gap: 30px
+    padding: 100px 0px
+    max-width: 1440px
+    margin: 0 auto
+    @media (max-width: 768px)
+      padding: 20px 0
+      gap: 0
       h3
         font-family: 'Gilroy'
         font-style: normal
@@ -144,8 +171,8 @@
             display: flex
             justify-content: space-between
             cursor: pointer
-            
-            h2.accordion-header 
+
+            h2.accordion-header
               margin: 0
               font-family: 'Gilroy'
               font-style: normal
@@ -173,7 +200,7 @@
     // padding: 0 30px
     max-width: 1440px
     margin: 0 auto
-    h3 
+    h3
       font-family: 'Gilroy'
       font-style: normal
       font-weight: 500
@@ -186,7 +213,7 @@
       @media (max-width: 768px)
         font-size: 22px
         font-weight: 700
-    &__text 
+    &__text
       display: flex
       justify-content: space-between
       margin-top: 32px
@@ -196,7 +223,7 @@
         flex-direction: column
         gap: 24px
         margin-top: 6px
-      &--firstContainer 
+      &--firstContainer
         max-width: 581px
         display: flex
         flex-direction: column
@@ -205,7 +232,7 @@
           display: flex
           justify-content: space-between
           gap: 29px
-          p.gray 
+          p.gray
             font-family: 'Gilroy'
             font-style: normal
             font-weight: 400
@@ -219,7 +246,7 @@
           img.line1
             @media (max-width: 768px)
               width: 30%
-      &--secondContainer 
+      &--secondContainer
         max-width: 581px
         display: flex
         flex-direction: column
@@ -228,7 +255,7 @@
           display: flex
           justify-content: space-between
           gap: 29px
-          p.gray 
+          p.gray
             font-family: 'Gilroy'
             font-style: normal
             font-weight: 400
@@ -241,7 +268,7 @@
             @media (max-width: 768px)
               width: 30%
           // p.gray 
-        
+
 .active
   h2
     font-weight: 600

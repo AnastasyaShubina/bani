@@ -6,6 +6,7 @@ import { swiperSlider } from './slider'
 import { counters } from './counter'
 import { carusel } from './carusel'
 import { caruselGoods } from './caruselGoods'
+import { swiperGood } from './sliderGood'
 
 importAll(
   require.context(
@@ -23,6 +24,7 @@ onDocumentReady(function () {
 swiperSlider()
 carusel()
 caruselGoods()
+swiperGood()
 
 accordion()
 
