@@ -1,4 +1,7 @@
 .profile
+    margin: 0 30px
+    @media (max-width: 768px)
+        margin: 0 16px
     &--container
         max-width: 1440px
         margin: 0 auto
@@ -12,9 +15,17 @@
                 font-family: Gilroy
                 font-weight: 500
                 margin-bottom: 28px
+                @media (max-width: 768px)
+                    font-weight: 700
+                    font-size: 22px
+                    line-height: 27px
+                    max-width: 250px
+                    margin-bottom: 15px
             &--exit
                 display: flex
                 gap: 20px
+                @media (max-width: 768px)
+                    margin-bottom: 10px
                 a
                     font-family: 'Gilroy'
                     font-style: normal
@@ -31,11 +42,16 @@
             display: flex
             justify-content: space-between
             gap: 5%
+            @media (max-width: 768px)
+                flex-direction: column
+                gap: 30px
             &--myOrders
                 width: 65%
                 border: 1px solid #8F8F8F
                 border-radius: 20px
                 padding: 35px 30px
+                @media (max-width: 768px)
+                    width: 100%
                 h4
                     font-weight: 500
                     font-size: 30px
@@ -86,6 +102,9 @@
                     display: flex
                     justify-content: space-between
                     margin-top: 35px
+                    @media (max-width: 768px)
+                        flex-direction: column
+                        gap: 16px
                     h3
                         font-family: 'Gilroy'
                         font-style: normal
@@ -95,12 +114,20 @@
                         display: flex
                         align-items: center
                         color: #F03F29
+                        @media (max-width: 768px)
+                            font-weight: 500
+                            font-size: 16px
+                            line-height: 19px
                     a
                         font-family: 'Gilroy'
                         font-weight: 400
                         font-size: 16px
                         line-height: 21px
                         color: #000000
+                        @media (max-width: 768px)
+                            font-weight: 400
+                            font-size: 14px
+                            line-height: 21px
 
             &--form
                 width: 30%
@@ -108,6 +135,8 @@
                 border-radius: 20px
                 padding: 30px
                 height: fit-content
+                @media (max-width: 768px)
+                    width: 100%
                 h4
                     font-family: 'Gilroy'
                     font-style: normal
