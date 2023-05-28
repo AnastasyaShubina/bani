@@ -56,7 +56,10 @@
 
 .cardsOfProducts
   background-color: #fff
-  margin-bottom: 100px
+  margin: 0 30px 100px
+  @media (max-width: 768px)
+    margin: 0 16px
+    margin-bottom: 100px
   &--container
     max-width: 1440px
     margin: 0 auto
@@ -72,11 +75,19 @@
             font-family: Gilroy
             font-weight: 500
             margin-bottom: 28px
+            @media (max-width: 768px)
+              font-size: 22px
+              font-weight: 700
+              letter-spacing: -0.015em
+              margin-bottom: 15px
           p
             color: #000
             font-size: 16px
             font-family: Gilroy
             font-weight: 400
+            @media (max-width: 768px)
+              font-size: 14px
+              line-height: 150%
 
         &__sorting
           padding: 30px 0px
@@ -85,6 +96,8 @@
           &--container
             display: flex
             gap: 30px
+            @media (max-width: 768px)
+              display: none
           &--select
             .box
               width: 180px
@@ -102,11 +115,10 @@
               border: 1px solid #EDF0F7
               border-radius: 50px
       &--cards
-        grid-template-columns: 1fr 1fr 1fr
-        display: grid
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
         gap: 27px
-        @media (max-width: 768px)
-           grid-template-columns: 1fr
         &__card
           border: 1px solid #8F8F8F
           border-radius: 25px
