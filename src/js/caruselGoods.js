@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 export const caruselGoods = () => {
     new Swiper(".caruselGoods", {
         modules: [Navigation, Pagination],
-        slidesPerView: 3,
+        slidesPerView: window.innerWidth > 768 ? 3 : 1,
         // centeredSlides: true,
         spaceBetween: 30,
         grabCursor: true,
