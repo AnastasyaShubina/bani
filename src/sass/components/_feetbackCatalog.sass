@@ -1,6 +1,8 @@
 .feetbackCatalog
-    margin: 0  30px 100px
-
+    margin: 0 30px 100px
+    @media (max-width: 768px)
+        margin: 0 16px
+        margin-bottom: 100px
     &--container
         max-width: 1440px
         margin: 0 auto
@@ -13,6 +15,12 @@
                 font-weight: 500
                 margin-bottom: 28px
                 text-align: left
+                @media (max-width: 768px)
+                    font-size: 22px
+                    font-weight: 700
+                    line-height: 52px
+                    letter-spacing: -0.015em
+                    margin-bottom: 15px
             p
                 font-family: 'Gilroy'
                 font-style: normal
@@ -20,11 +28,18 @@
                 font-size: 18px
                 line-height: 147.9%
                 color: #1C1C1C
+                @media (max-width: 768px)
+                    font-size: 14px
+                    line-height: 150%
         &__first
             margin-top: 50px
             display: grid
             grid-template-columns: 1fr 1fr
             gap: 120px
+            @media (max-width: 768px)
+                display: flex
+                flex-direction: column-reverse
+                gap: 20px
             &--text
                 margin: auto 0
                 h2
@@ -36,6 +51,12 @@
                     letter-spacing: -0.015em
                     color: #000000
                     margin-bottom: 30px
+                    @media (max-width: 768px)
+                        font-size: 22px
+                        font-weight: 700
+                        line-height: 52px
+                        letter-spacing: -0.015em
+                        margin-bottom: 15px
                 p
                     font-family: 'Gilroy'
                     font-style: normal
@@ -43,10 +64,15 @@
                     font-size: 18px
                     line-height: 147.9%
                     color: #1C1C1C
+                    @media (max-width: 768px)
+                        font-size: 14px
+                        line-height: 150%
             &--video
                 margin: auto
                 video
                     margin: auto
+                    @media (max-width: 768px)
+                        width: 100%
         &__goods
             margin-top: 100px
             &--header
