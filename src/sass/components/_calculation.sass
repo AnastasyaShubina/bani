@@ -4,7 +4,9 @@
   @media (max-width: 768px)
     padding: 30px 16px
   &--container
-    h2 
+    max-width: 1440px
+    margin: 0 auto
+    h2
       font-family: 'Gilroy'
       font-style: normal
       font-weight: 500
@@ -16,7 +18,7 @@
         font-weight: 700
         font-size: 22px
         line-height: 27px
-    p.text 
+    p.text
       font-family: 'Gilroy'
       font-style: normal
       font-weight: 400
@@ -27,7 +29,7 @@
       @media (max-width: 768px)
         font-size: 14px
         margin: 10px 0
-    p.option 
+    p.option
       font-family: 'Gilroy'
       font-style: normal
       font-weight: 500
@@ -36,7 +38,7 @@
       color: #1C1C1C
       @media (max-width: 768px)
         font-size: 14px
-    &__cards 
+    &__cards
       grid-template-columns: 1fr 1fr 1fr
       display: grid
 
@@ -45,7 +47,7 @@
 
       @media (max-width: 768px)
         grid-template-columns: 1fr 1fr
-        margin: 20px 0 
+        margin: 20px 0
       &--card
         border: 1px solid #8F8F8F
         border-radius: 25px
@@ -64,16 +66,16 @@
             margin: 5px 0 0 10px
             position: relative
           //flex-direction: column
-          h4 
-              font-family: 'Gilroy'
-              font-style: normal
-              font-weight: 600
-              font-size: 30px
-              line-height: 130%
-              color: #1C1C1C
-              @media (max-width: 768px)
-                font-weight: 500
-                font-size: 14px
+          h4
+            font-family: 'Gilroy'
+            font-style: normal
+            font-weight: 600
+            font-size: 30px
+            line-height: 130%
+            color: #1C1C1C
+            @media (max-width: 768px)
+              font-weight: 500
+              font-size: 14px
 
           img.questionIcon
             cursor: pointer
@@ -87,7 +89,7 @@
 
           &--startPrice
 
-            h3.startPriceStyle 
+            h3.startPriceStyle
               margin-top: 26px
               margin-bottom: 10px
               font-family: 'Gilroy'
@@ -96,19 +98,18 @@
               font-size: 30px
               line-height: 130%
               color: #F03F29
-              margin: 18px 0px 20px 30px    
+              margin: 18px 0px 20px 30px
               @media (max-width: 768px)
                 font-size: 14px
                 margin: 3px 10px 10px 10px
 
-              
-      &--totalPrice 
+      &--totalPrice
         display: flex
         justify-content: space-between
         align-items: center
         @media (max-width: 768px)
           flex-direction: column
-        h3.totalPrice 
+        h3.totalPrice
           font-family: 'Gilroy'
           font-style: normal
           font-weight: 500
@@ -120,7 +121,7 @@
           @media (max-width: 768px)
             font-size: 22px
             line-height: 26px
-        &__buttons 
+        &__buttons
           display: flex
           gap: 30px
           @media (max-width: 768px)
