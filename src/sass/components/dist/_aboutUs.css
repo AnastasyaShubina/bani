@@ -1,0 +1,226 @@
+.aboutUs {
+  margin: 0px 34px 100px 34px;
+}
+@media (max-width: 768px) {
+  .aboutUs {
+    margin: 0px 16px 50px 16px;
+  }
+}
+.aboutUs--container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.aboutUs--container__mainInfo h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #1C1C1C;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__mainInfo h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 9px;
+    line-height: 27px;
+  }
+}
+.aboutUs--container__mainInfo p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 147.9%;
+  color: #1C1C1C;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__mainInfo p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.aboutUs--container__mainInfo--video {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__years {
+    display: none;
+  }
+}
+.aboutUs--container__years img {
+  width: 100%;
+  margin: 70px 0 70px 0;
+}
+.aboutUs--container__yearsMobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__yearsMobile {
+    display: block;
+    margin-top: -40px;
+  }
+}
+.aboutUs--container__yearsMobile img {
+  width: 100%;
+  margin: 70px 0 70px 0;
+}
+.aboutUs--container__massMedia {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 31px;
+  margin-top: 38px;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__massMedia {
+    grid-template-columns: 1fr;
+    gap: 45px;
+    margin-top: -20px;
+  }
+}
+.aboutUs--container__massMedia--first img {
+  padding-bottom: 30px;
+}
+@media (max-width: 1440px) {
+  .aboutUs--container__massMedia--first img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .aboutUs--container__massMedia--first img {
+    padding-bottom: 20px;
+  }
+}
+.aboutUs--container__massMedia--first__text {
+  max-width: 425px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aboutUs--container__massMedia--first__text h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+}
+@media (max-width: 1440px) {
+  .aboutUs--container__massMedia--first__text h4 {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+    font-size: 22px;
+  }
+}
+.aboutUs--container__massMedia--first__text p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #81859C;
+}
+@media (max-width: 1440px) {
+  .aboutUs--container__massMedia--first__text p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+.aboutUs--container__massMedia--first__text--buttonSecondary {
+  padding-top: 10px;
+}
+.aboutUs--container__ourTeam {
+  margin: 100px 0;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__ourTeam {
+    margin: 50px 0;
+  }
+}
+.aboutUs--container__ourTeam h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__ourTeam h3 {
+    font-weight: 700;
+    font-size: 22px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+.aboutUs--container__ourTeam--cardsOfPPersons {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  gap: 59px;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__ourTeam--cardsOfPPersons {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+.aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson {
+  text-align: center;
+}
+.aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson img {
+    max-width: 200px;
+  }
+}
+.aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson--text {
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson--text {
+    margin-top: 20px;
+  }
+}
+.aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson--text h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 11px;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson--text h4 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+.aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson--text p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1C1C1C;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__ourTeam--cardsOfPPersons__cardOfPerson--text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
