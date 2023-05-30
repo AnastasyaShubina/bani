@@ -1,0 +1,37 @@
+.helpful
+  .helpfulContainer 
+    h2 Полезности 
+    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet.
+    .helpfulContainer--buttonsContainer 
+      include ./components/buttonSecondary
+      +buttonSecondary('Категория №1')
+      include ./components/buttonTertiary
+      +buttonTertiary('Категория №2')
+      include ./components/buttonTertiary
+      +buttonTertiary('Категория №3')
+      include ./components/buttonTertiary
+      +buttonTertiary('Категория №4')
+    .helpfulContainer--buttonsContainerMobile
+      select.box
+        option Вариант 1
+        option Вариант 2
+        option Вариант 3
+        option(selected) Все категории
+    .helpfulContainer--cardsContainer 
+      .helpfulContainer--cardsContainer__firstRow
+        .helpfulContainer--cardsContainer__firstRow--card 
+          img(src="./images/helpfulCard.svg" alt="")
+          h3 Как возвести фундамент для бани бочки
+        .helpfulContainer--cardsContainer__firstRow--card 
+          img(src="./images/helpfulCard.svg" alt="")
+          h3 Чем и как правильно покрасить новую баню
+        .helpfulContainer--cardsContainer__firstRow--card 
+          img(src="./images/helpfulCard.svg" alt="")
+          h3 Правила эксплуатации бани бочки
+      .helpfulContainer--cardsContainer__secondRow
+        .helpfulContainer--cardsContainer__secondRow--card 
+          img(src="./images/helpfulCard2.svg" alt="")
+          h3 Как возвести фундамент для бани бочки
+        .helpfulContainer--cardsContainer__secondRow--card 
+          img(src="./images/helpfulCard2.svg" alt="")
+          h3 Чем и как правильно покрасить новую баню
