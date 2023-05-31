@@ -1,0 +1,84 @@
+.contacts
+    margin: 0 30px 100px
+    @media (max-width: 768px)
+        margin: 0 16px
+    .contactsContainer 
+        max-width: 1440px
+        margin: 0 auto
+        margin-bottom: 100px
+        display: flex
+        gap: 10px
+        justify-content: space-between
+        @media (max-width: 768px)
+            flex-direction: column
+            gap: 30px
+            margin-bottom: 50px
+        &--leftContainer 
+                h2 
+                    font-family: 'Gilroy'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 42px
+                    letter-spacing: -0.015em
+                    color: #000000
+                    margin-bottom: 30px
+                    @media (max-width: 768px)
+                        font-size: 22px
+                        font-weight: 700
+                        line-height: 25px
+                        letter-spacing: -0.015em
+                        margin-bottom: 10px
+                p 
+                    font-family: 'Gilroy'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 18px
+                    line-height: 147.9%
+                    color: #1C1C1C
+                    @media (max-width: 768px)
+                        font-size: 14px
+                        line-height: 150%
+                        max-width: 232px
+                &__icons 
+                    display: flex
+                    gap: 30px
+                    flex-direction: column
+                    margin-top: 30px
+                    @media (max-width: 768px)
+                        margin-top: 15px
+                        gap: 20px
+                    &--icon 
+                        display: flex
+                        gap: 20px
+                        align-items: center
+                        img
+                            @media (max-width: 768px)
+                                max-width: 45px
+                        &__text 
+                            h5 
+                                font-family: 'Gilroy'
+                                font-style: normal
+                                font-weight: 600
+                                font-size: 18px
+                                line-height: 21px
+                                display: flex
+                                align-items: center
+                                color: #1C1C1C
+                                margin: 0 0 5px
+                                @media (max-width: 768px)
+                                    font-size: 16px
+                            p 
+                                font-family: 'Gilroy'
+                                font-style: normal
+                                font-weight: 400
+                                font-size: 14px
+                                line-height: 16px
+                                display: flex
+                                align-items: center
+                                color: #1C1C1C
+                                @media (max-width: 768px)
+                                    font-size: 12px
+        &--rightContainer
+            img
+                width: 100%
+
