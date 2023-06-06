@@ -3,6 +3,8 @@
         grid-template-columns: 1fr 1fr 1fr
         display: grid
         gap: 27px
+        @media (max-width: 768px)
+          grid-template-columns: 1fr
         &--card
           border: 1px solid #8F8F8F
           border-radius: 25px
@@ -22,6 +24,9 @@
               font-size: 30px
               line-height: 130%
               color: #000000
+              @media (max-width: 768px)
+                font-size: 22px
+                font-weight: 500
             &--firstString
               display: flex
               justify-content: space-between
@@ -32,8 +37,13 @@
                 font-size: 18px
                 line-height: 250%
                 color: #81859C
+                @media (max-width: 768px)
+                  font-size: 14px
               img.line1
                 max-width: 208px
+                @media (max-width: 768px)
+                  max-width: 150px
+
 
             &--secondString
               display: flex
@@ -70,7 +80,8 @@
               font-size: 30px
               line-height: 130%
               color: #F03F29
-
+              @media (max-width: 768px)
+                font-size: 20px
             &--startPrice
               display: flex
               gap: 15px
@@ -81,5 +92,7 @@
                 font-size: 22px
                 line-height: 130%
                 color: #000000
+                @media (max-width: 768px)
+                      font-size: 14px
               .questionIcon
                 cursor: pointer

@@ -1,0 +1,70 @@
+.application {
+  background-image: url("../images/application.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .application {
+    background-image: url("../images/applicationMobile.png");
+  }
+}
+.application--container {
+  z-index: 99;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 140px 33px;
+}
+@media (max-width: 768px) {
+  .application--container {
+    padding: 20px 17px 420px 17px;
+  }
+}
+.application--container__text {
+  position: relative;
+  max-width: 750px;
+}
+.application--container__text--blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  z-index: 0;
+  border-radius: 20px;
+  background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+}
+.application--container__text--content {
+  position: relative;
+  z-index: 1;
+  padding: 30px 32px;
+}
+.application--container__text--content h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  .application--container__text--content h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+.application--container__text--content p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+  padding: 25px 0 25px;
+}
+@media (max-width: 768px) {
+  .application--container__text--content p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}

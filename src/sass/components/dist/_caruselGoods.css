@@ -1,0 +1,129 @@
+.caruselGoods .caruselContainer {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 27px;
+}
+@media (max-width: 768px) {
+  .caruselGoods .caruselContainer {
+    grid-template-columns: 1fr;
+  }
+}
+.caruselGoods .caruselContainer--card {
+  border: 1px solid #8F8F8F;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.caruselGoods .caruselContainer--card img.mainImg {
+  width: 100%;
+}
+.caruselGoods .caruselContainer--card__text {
+  max-width: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.caruselGoods .caruselContainer--card__text h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .caruselGoods .caruselContainer--card__text h4 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+.caruselGoods .caruselContainer--card__text--firstString {
+  display: flex;
+  justify-content: space-between;
+}
+.caruselGoods .caruselContainer--card__text--firstString p.gray {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 250%;
+  color: #81859C;
+}
+@media (max-width: 768px) {
+  .caruselGoods .caruselContainer--card__text--firstString p.gray {
+    font-size: 14px;
+  }
+}
+.caruselGoods .caruselContainer--card__text--firstString img.line1 {
+  max-width: 208px;
+}
+@media (max-width: 768px) {
+  .caruselGoods .caruselContainer--card__text--firstString img.line1 {
+    max-width: 150px;
+  }
+}
+.caruselGoods .caruselContainer--card__text--secondString {
+  display: flex;
+  justify-content: space-between;
+}
+.caruselGoods .caruselContainer--card__text--secondString p.gray {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 250%;
+  color: #81859C;
+}
+.caruselGoods .caruselContainer--card__text--secondString img.line2 {
+  max-width: 134px;
+}
+.caruselGoods .caruselContainer--card__text--thirdString {
+  display: flex;
+  justify-content: space-between;
+}
+.caruselGoods .caruselContainer--card__text--thirdString p.gray {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 250%;
+  color: #81859C;
+}
+.caruselGoods .caruselContainer--card__text--thirdString img.line2 {
+  max-width: 139px;
+}
+.caruselGoods .caruselContainer--card__text h2.priceStyle {
+  margin-top: 26px;
+  margin-bottom: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #F03F29;
+}
+@media (max-width: 768px) {
+  .caruselGoods .caruselContainer--card__text h2.priceStyle {
+    font-size: 20px;
+  }
+}
+.caruselGoods .caruselContainer--card__text--startPrice {
+  display: flex;
+  gap: 15px;
+}
+.caruselGoods .caruselContainer--card__text--startPrice h3.startPriceStyle {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .caruselGoods .caruselContainer--card__text--startPrice h3.startPriceStyle {
+    font-size: 14px;
+  }
+}
+.caruselGoods .caruselContainer--card__text--startPrice .questionIcon {
+  cursor: pointer;
+}

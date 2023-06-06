@@ -1,10 +1,10 @@
 .places {
   background-color: #fff;
-  padding: 0px 0px 100px;
+  margin: 0 30px 100px 30px;
 }
 @media (max-width: 768px) {
   .places {
-    padding: 50px 16px;
+    margin: 50px 16px;
   }
 }
 .places--container {
@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 .places--container__content {
-  margin: 30px 30px;
+  margin: 30px 0px;
 }
 @media (max-width: 768px) {
   .places--container__content {
@@ -46,7 +46,6 @@
   }
 }
 .places--container img {
-  margin: 0 300px;
   max-width: 100%;
 }
 @media (max-width: 768px) {

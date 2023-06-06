@@ -71,38 +71,60 @@
   margin: 70px 0 70px 0;
 }
 .aboutUs--container__massMedia {
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs--container__massMedia h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .aboutUs--container__massMedia h3 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+}
+.aboutUs--container__massMedia--cards {
   grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   gap: 31px;
   margin-top: 38px;
 }
 @media (max-width: 768px) {
-  .aboutUs--container__massMedia {
+  .aboutUs--container__massMedia--cards {
     grid-template-columns: 1fr;
     gap: 45px;
     margin-top: -20px;
   }
 }
-.aboutUs--container__massMedia--first img {
+.aboutUs--container__massMedia--cards__first img {
   padding-bottom: 30px;
 }
 @media (max-width: 1440px) {
-  .aboutUs--container__massMedia--first img {
+  .aboutUs--container__massMedia--cards__first img {
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-  .aboutUs--container__massMedia--first img {
+  .aboutUs--container__massMedia--cards__first img {
     padding-bottom: 20px;
   }
 }
-.aboutUs--container__massMedia--first__text {
+.aboutUs--container__massMedia--cards__first--text {
   max-width: 425px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.aboutUs--container__massMedia--first__text h4 {
+.aboutUs--container__massMedia--cards__first--text h4 {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
@@ -111,14 +133,14 @@
   color: #000;
 }
 @media (max-width: 1440px) {
-  .aboutUs--container__massMedia--first__text h4 {
+  .aboutUs--container__massMedia--cards__first--text h4 {
     font-size: 22px;
     line-height: 130%;
     font-weight: 500;
     font-size: 22px;
   }
 }
-.aboutUs--container__massMedia--first__text p {
+.aboutUs--container__massMedia--cards__first--text p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -127,12 +149,12 @@
   color: #81859C;
 }
 @media (max-width: 1440px) {
-  .aboutUs--container__massMedia--first__text p {
+  .aboutUs--container__massMedia--cards__first--text p {
     font-size: 16px;
     line-height: 21px;
   }
 }
-.aboutUs--container__massMedia--first__text--buttonSecondary {
+.aboutUs--container__massMedia--cards__first--text__buttonSecondary {
   padding-top: 10px;
 }
 .aboutUs--container__ourTeam {
