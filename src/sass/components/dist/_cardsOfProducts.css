@@ -36,7 +36,7 @@
 }
 .cardsOfProducts--container__content--main__text p {
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   font-family: Gilroy;
   font-weight: 400;
 }
@@ -51,12 +51,57 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 834px) {
+  .cardsOfProducts--container__content--main__sorting {
+    flex-wrap: wrap;
+  }
+}
 .cardsOfProducts--container__content--main__sorting--container {
   display: flex;
   gap: 30px;
 }
+@media (max-width: 834px) {
+  .cardsOfProducts--container__content--main__sorting--container {
+    gap: 15px;
+  }
+}
 @media (max-width: 768px) {
   .cardsOfProducts--container__content--main__sorting--container {
+    display: none;
+  }
+}
+.cardsOfProducts--container__content--main__sorting--selectMobile {
+  display: none;
+}
+@media (max-width: 834px) {
+  .cardsOfProducts--container__content--main__sorting--selectMobile {
+    display: block;
+  }
+}
+.cardsOfProducts--container__content--main__sorting--selectMobile .box {
+  width: 180px;
+  height: 40px;
+  padding: 10px 31px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  background: #F7FAFC;
+  border: 1px solid #EDF0F7;
+  border-radius: 50px;
+}
+@media (max-width: 834px) {
+  .cardsOfProducts--container__content--main__sorting--selectMobile .box {
+    padding: 10px 20px;
+    width: 160px;
+  }
+}
+@media (max-width: 834px) {
+  .cardsOfProducts--container__content--main__sorting--select {
     display: none;
   }
 }
@@ -82,11 +127,22 @@
   justify-content: space-between;
   gap: 27px;
 }
+@media (max-width: 834px) {
+  .cardsOfProducts--container__content--cards {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+}
 .cardsOfProducts--container__content--cards__card {
   border: 1px solid #8F8F8F;
   border-radius: 25px;
   background-color: #F5F5F5;
   cursor: pointer;
+}
+@media (max-width: 834px) {
+  .cardsOfProducts--container__content--cards__card {
+    max-width: 370px;
+  }
 }
 @media (max-width: 768px) {
   .cardsOfProducts--container__content--cards__card {

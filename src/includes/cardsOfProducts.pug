@@ -10,12 +10,20 @@
           .cardsOfProducts--container__content--main__sorting--container
             include ./components/buttonSecondary
             +buttonSecondary('Все модели')
+
+            .cardsOfProducts--container__content--main__sorting--selectMobile
+              select.box
+                  option Вариант 1
+                  option Вариант 2
+                  option Вариант 3
+                  option(selected) Все форматы
+
             include ./components/buttonTertiary
             +buttonTertiary('Для себя')
             include ./components/buttonTertiary
             +buttonTertiary('Для семьи')
             include ./components/buttonTertiary
-            +buttonTertiary('Для большой компании')
+            +buttonTertiary('Для компании')
           .cardsOfProducts--container__content--main__sorting--select
               select.box
                   option Вариант 1
