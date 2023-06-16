@@ -50,8 +50,10 @@
         .cardProduct--mainDescription__container--text__priceContainer 
           h4 133 990 ₽
           .cardProduct--mainDescription__container--text__priceContainer--buttonContainer
-            include ./components/buttonSecondary
+            include ./components/buttonSecondary 
             +buttonSecondary('Заказать')
+            .cardProduct--mainDescription__container--text__priceContainer--buttonContainer__buttonBasket 
+              img(src="/images/basketMini.svg", alt="")
 
 
   .cardProduct--accordionDescription

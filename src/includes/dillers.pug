@@ -3,12 +3,20 @@
         h2 Дилеры
         .dillersContainer--textAndSelector
             p Наши выставочные площадки расположены в Х городах России, а так же в 11 странах мира.
-            .dillersContainer--textAndSelector__select
-              select.box
-                  option Вариант 1
-                  option Вариант 2
-                  option Вариант 3
-                  option(selected) Выберите регион
+            .dillersContainer--textAndSelector__selectContainer
+                .dillersContainer--textAndSelector__selectContainer--select
+                    select.box
+                        option Вариант 1
+                        option Вариант 2
+                        option Вариант 3
+                        option(selected) Выберите регион
+                .dillersContainer--textAndSelector__selectContainer--selectPassive
+                    select(disabled).box
+                        option Вариант 1
+                        option Вариант 2
+                        option Вариант 3
+                        option(selected) Выберите дилера
+
         img(src="./images/map.svg", alt="")
         .dillersContainer--countries 
             h3 Представители в мире

@@ -173,6 +173,14 @@
     font-weight: 600;
   }
 }
+.cardProduct--mainDescription__container--text__priceContainer--buttonContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.cardProduct--mainDescription__container--text__priceContainer--buttonContainer__buttonBasket {
+  cursor: pointer;
+}
 .cardProduct--accordionDescription {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,13 @@
+.modalCardProduct 
+    .modalCardProduct--back
+    .modalCardProduct--window
+        .modalCardProduct--window__content
+                h3 Товар добавлен в корзину
+                p Вы можете продолжить покупки или перейти в корзину и оформить заказ.
+                img(src="./images/closedIcon.svg", alt="closedIcon").close
+                .modalCardProduct--window__content--buttons 
+                  include ./components/buttonSecondary 
+                  +buttonSecondary('Продолжить покупки')
+                  include ./components/buttonSecondary 
+                  +buttonSecondary('Перейти к оформлению')
+                

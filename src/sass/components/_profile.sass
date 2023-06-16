@@ -47,9 +47,10 @@
                 gap: 30px
             &--myOrders
                 width: 65%
+                height: 100%
                 border: 1px solid #8F8F8F
                 border-radius: 20px
-                padding: 35px 30px
+                padding: 0 35px 30px
                 @media (max-width: 768px)
                     width: 100%
                 h4
@@ -68,36 +69,67 @@
                     color: #1C1C1C
                     margin-top: 30px
                     margin-bottom: 20px
+
                 &__items
-                    display: grid
-                    gap: 20px
                     &--item
+                        border-bottom: 1px solid #0003
+
+                        padding: 30px 0
                         display: flex
-                        gap: 30px
-                        &--img
-                            img
-                                width: 115px
-                                height: 77px
-                                border-radius: 10px
-                        &--metta
+                        justify-content: space-between
+                        @media (max-width: 768px)
+                            flex-direction: column
+                        &__mainContainer
+                                display: flex
+                                gap: 35px
+
+                                img
+                                    width: 115px
+                                    height: 77px
+                                    border-radius: 10px
+                                h5
+                                    font-family: 'Gilroy'
+                                    font-style: normal
+                                    font-weight: 500
+                                    font-size: 18px
+                                    line-height: 21px
+                                    color: #000000
+                        &__priceContainer    
                             display: flex
-                            flex-flow: column
-                            justify-content: space-evenly
-                            h5
+                            align-items: center
+                            &--counterContainer 
+                                display: flex
+                                background: #F5F5F5
+                                border-radius: 50px
+                                gap: 16px
+                                padding: 10px 20px
+                                max-height: 47px
+                                p 
+                                    font-family: 'Gilroy'
+                                    font-style: normal
+                                    font-weight: 400
+                                    font-size: 18px
+                                    line-height: 21px
+                                    display: flex
+                                    align-items: center
+                                    text-align: center
+                                    color: #000000
+
+                            h4 
                                 font-family: 'Gilroy'
                                 font-style: normal
-                                font-weight: 500
-                                font-size: 18px
-                                line-height: 130%
-                                margin: 0
-                            p
-                                font-family: 'Gilroy'
                                 font-weight: 600
                                 font-size: 18px
                                 line-height: 130%
                                 display: flex
                                 align-items: center
                                 color: #F03F29
+                                margin-left: 30px
+                            img.close
+                                max-width: 30px
+                                margin-left: 43px
+                                cursor: pointer
+
                 &__total
                     display: flex
                     justify-content: space-between
@@ -114,6 +146,7 @@
                         display: flex
                         align-items: center
                         color: #F03F29
+                        gap: 10px
                         @media (max-width: 768px)
                             font-weight: 500
                             font-size: 16px
@@ -123,7 +156,7 @@
                         font-weight: 400
                         font-size: 16px
                         line-height: 21px
-                        color: #000000
+                        color: #ffffff
                         @media (max-width: 768px)
                             font-weight: 400
                             font-size: 14px
