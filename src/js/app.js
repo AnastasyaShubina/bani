@@ -22,13 +22,22 @@ onDocumentReady(function () {
   console.log('hello.')
 })
 
-modalCardProduct()
-modalProfile()
+// Modals
+var currentPageUrl = window.location.href;
+if (currentPageUrl.includes('cardProduct')) {
+  modalCardProduct()
+}else if (currentPageUrl.includes('profile')) {
+  modalProfile()
+}
+
+// Sliders
 swiperSlider()
 carusel()
 caruselGoods()
 swiperGood()
 
+// Accordions
 accordion()
 
+// Counters
 counters()
