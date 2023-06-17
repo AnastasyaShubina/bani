@@ -2,9 +2,7 @@ export const modalProfile = () => {
     const contactUsBtn = document.querySelector('.profile--container__cards--myOrders__total--button');
     const modalProfile = document.querySelector('.modalProfile');
     const modalProfileBack = document.querySelector('.modalProfile--back');
-    // const modalProfileCloseBtn = document.querySelector('.close');
-    const modalProfileCloseBtn = document.querySelector('.modalProfile--window__content--buttons .buttonSecondary');
-    
+    const modalProfileCloseBtn = document.querySelector('.modalProfile--window__content--buttons .buttonSecondary');    
     const html = document.querySelector('html');
 
     contactUsBtn.addEventListener('click', () => {
