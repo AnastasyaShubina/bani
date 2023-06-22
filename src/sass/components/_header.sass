@@ -19,8 +19,11 @@
             @media (max-width: 768px)
                 display: block
                 flex: 0.9
-            // img.header--catalogMenu__img 
-
+            .header--catalogMenu__img
+                color: rgb(255, 255, 255)
+                font-size: 25px
+                font-weight: bolder
+                font-family: Gilroy
         &__logo
             @media (max-width: 768px)
                 display: none
@@ -80,6 +83,43 @@
 
         &__buttonUser
             margin: auto 0
+            display: none
             @media (max-width: 768px)
                 flex: 0
+                display: block
                 // max-height: 30px
+
+.menuItem
+    display: block
+    margin: 2rem 4rem
+    font-size: 1.8rem
+    color: white
+    text-decoration: none
+
+.menuItem:hover
+    text-decoration: underline
+
+.hamburger
+    position: relative
+    z-index: 100
+
+.closeIcon
+    display: none
+
+.menu
+    position: fixed
+    transform: translateY(-100%)
+    transition: transform 0.2s
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 99
+    background: #f03f29
+    color: white
+    list-style: none
+    padding-top: 4rem
+    font-family: Gilroy
+
+.showMenu
+    transform: translateY(0)

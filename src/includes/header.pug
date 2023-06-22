@@ -1,7 +1,8 @@
 header.header
     .header--container
-        .header--container__mobile 
-            img(src="./images/catalogMenu.svg" alt="logo").header--catalogMenu__img 
+        .header--container__mobile.hamburger
+            img(src="./images/catalogMenu.svg" alt="logo").header--catalogMenu__img.menuIcon
+            .header--catalogMenu__img.closeIcon X
 
         .header--container__logo 
             img(src="./images/logoMain.svg" alt="logo").header--logo__img 
@@ -27,6 +28,12 @@ header.header
 
         .header--container__buttonLocation
             include ./components/buttonLocation.pug
-        
+
         .header--container__buttonUser
             include ./components/buttonUser.pug
+<ul class="menu">
+    <li><a class="menuItem" href="#">Home</a></li>
+    <li><a class="menuItem" href="#">Profile</a></li>
+    <li><a class="menuItem" href="#">About</a></li>
+    <li><a class="menuItem" href="#">Contacts</a></li>
+</ul>

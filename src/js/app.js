@@ -9,6 +9,7 @@ import { caruselGoods } from './caruselGoods'
 import { swiperGood } from './sliderGood'
 import { modalCardProduct } from './modalCardProduct'
 import { modalProfile } from './modalProfile'
+import { burgerMenu } from './burgerMenu'
 
 importAll(
   require.context(
@@ -29,6 +30,8 @@ if (currentPageUrl.includes('cardProduct')) {
 }else if (currentPageUrl.includes('profile')) {
   modalProfile()
 }
+
+burgerMenu()
 
 // Sliders
 swiperSlider()
